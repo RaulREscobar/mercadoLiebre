@@ -5,15 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba Mercado Libre</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="/css/styles.css">
+
 </head>
 <body>
     <header>
         <!-- aqui ira el header -->
-        <img src="/images/logo-mercado-liebre.svg" alt="logo de mercado libre">
-        <p>Lugar donde poner barra de búsqueda</p>
-        <p>comprar en cuotas y sin tarjeta de crédito</p>
+        <div class="logo">
+         <img src="/images/logo-mercado-liebre.svg" alt="logo de mercado libre">
+        </div> 
+         <div class="ml-15">
+            <input type="search" placeholder="Buscar productos, marcas">
+        </div>
+        <div class="ml-15 search-bar">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <p><i class="fas fa-hand-holding-usd"></i>comprar en cuotas y sin tarjeta de crédito</p>
         <nav>
-            <ul>
+            <ul id="top-list" type='none'>
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Tiendas Oficiales</a></li>
                 <li><a href="">Vender</a></li>
@@ -21,88 +32,134 @@
             </ul>
         </nav>
         <nav>
-            <ul>
-                <li><a href="">Creá tu cuenta</a></li>
-                <li><a href="">Ingresá</a></li>
-                <li><a href="">Mis compras</a></li>
+            <ul id="top-list" type='none'>
+                <li><a href="">Creá tu cuenta<i class="far fa-address-card"></i></a></li>
+                <li><a href="">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
-        <img src="images/img-home-banner.jpg" alt="Banner"width="100%">
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+            </div>
     </header>
     <main>
         <!-- aqui ira el menu -->
-        <section>
+        <section >
             <h2>Basado en tu última visita</h2>
-            <article>
+            <article class="card">
                 <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de cafetera moulinex" width="100%">
-                <p>$6.770</p>
-                <p>40% OFF</p>
-                <h3>Cafetera Moulinex</h3>
+                <div class="card-content">
+                    <div class="icono-truck">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <p class="precio">$6.770</p>
+                    <p class="descuento">40% OFF</p>
+                    <h3>Cafetera Moulinex</h3>
+                </div>
             </article>
-            <article>
+            <article class="card">
                 <img src="/images/img-macbook-pro-2019.jpg" alt="Imagen de macbook pro 2019" width="100%">
-                <p>$230.000</p>
-                <p>20% OFF</p>
-                <h3>MacBook Pro 2019</h3>
+                <div class="card-content">
+                    <div class="icono-truck">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <p class="precio">$230.000</p>
+                    <p class="descuento">20% OFF</p>
+                    <h3>MacBook Pro 2019</h3>
+                </div>
             </article>
-            <article>
+            <article class="card">
                 <img src="images/img-samsung-galaxy-s10.jpg" alt="Imagen del sansun galaxy S10" width="100%">
-                <p>$70.500</p>
-                <p>10% OFF</p>
-                <h3>Samsung Galaxy S10</h3>
+                <div class="card-content">
+                    <div class="icono-truck">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <p class="precio">$70.500</p>
+                    <p class="descuento">10% OFF</p>
+                    <h3>Samsung Galaxy S10</h3>
+                </div>
             </article>
-            <article>
+            <article class="card">
                 <img src="images/img-tv-samsung-smart.jpg" alt="Imagen de un tv smart de 43 pulgadas" width="100%">
-                <p>$23.200</p>
-                <p>5% OFF</p>
-                <h3>SmartTv Samsung 43"</h3>
+                <div class="card-content">
+                    <div class="icono-truck">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <p class="precio">$23.200</p>
+                    <p class="descuento">5% OFF</p>
+                    <h3>SmartTv Samsung 43"</h3>
+                </div>
             </article>
 
         </section>
         <section>
             <h2>Ofertas</h2>
-            <article>
+            <article class="card">
                 <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de cafetera moulinex" width="100%">
-                <p>$6.770</p>
-                <p>40% OFF</p>
-                <h3>Cafetera Moulinex</h3>
+                <div class="card-content">
+                    <div class="icono-truck">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <p class="precio">$6.770</p>
+                    <p class="descuento">40% OFF</p>
+                    <h3>Cafetera Moulinex</h3>
+                </div>
             </article>
-            <article>
+            <article class="card">
                 <img src="/images/img-macbook-pro-2019.jpg" alt="Imagen de macbook pro 2019" width="100%">
-                <p>$230.000</p>
-                <p>20% OFF</p>
+                <div class="card-content">
+                    <div class="icono-truck">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                <p class="precio">$230.000</p>
+                <p class="descuento">20% OFF</p>
                 <h3>MacBook Pro 2019</h3>
+                </div>
             </article>
-            <article>
+            <article class="card">
                 <img src="images/img-samsung-galaxy-s10.jpg" alt="Imagen del sansun galaxy S10" width="100%">
-                <p>$70.500</p>
-                <p>10% OFF</p>
-                <h3>Samsung Galaxy S10</h3>
-            </article>
-            <article>
+                <div class="card-content">
+                    <div class="icono-truck">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <p class="precio">$70.500</p>
+                    <p class="descuento">10% OFF</p>
+                    <h3>Samsung Galaxy S10</h3>
+            </div>
+             </article>
+            <article class="card">
                 <img src="images/img-tv-samsung-smart.jpg" alt="Imagen de un tv smart de 43 pulgadas" width="100%">
-                <p>$23.200</p>
-                <p>5% OFF</p>
-                <h3>SmartTv Samsung 43"</h3>
+                <div class="card-content">
+                    <div class="icono-truck">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <p class="precio">$23.200</p>
+                    <p class="descuento">5% OFF</p>
+                    <h3>SmartTv Samsung 43"</h3>
+                </div>
             </article>
-
         </section>
     </main>
     <footer>
         <!-- aqui ira el footer -->
         <div>
+            <i id= "icon" class="fas fa-credit-card"></i>
             <h5>Pagá con tarjeta o en efectivo</h5>
             <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
         </div>
         <div>
+            <i id= "icon" class="fas fa-gift"></i>
             <h5>  Envío gratis desde $ 2.500</h5>
             <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
         </div>
         <div>
+            <i id= "icon" class="fas fa-user-shield"></i>
             <h5>Seguridad, de principio a fin</h5>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
         </div>
-        <h5>Copyright © 1999-2020 MercadoLiebre S.R.L.</h5>
+        <div >
+            <h5 id="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</h5>
+        </div>
     </footer>
     
 </body>
