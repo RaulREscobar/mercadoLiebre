@@ -1,0 +1,19 @@
+
+/* General */
+* {
+    margin:0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-roboto);
+    background-color: var(--color-grisClaro);
+}
+h3 {
+    font-size: var(--descripciones);
+}
+h2 {
+    font-size: var(--titulares);
+}
+
+

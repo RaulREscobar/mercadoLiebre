@@ -1,0 +1,58 @@
+
+
+.mr15 {
+    margin-right: 15px;
+}
+
+.register-conteiner{
+    margin: 0 auto;
+    background-color: rgb(220, 220, 220);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100vh;
+    max-height: 950px;
+    max-width: 320px;
+    
+}
+
+.inputs-conteiner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.warning {
+    color: red;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.inputs {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+    max-width: 320px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 28vh;
+    padding-left: 25px;
+}
+
+::placeholder {
+    color: rgb(189, 177, 177);
+}
+

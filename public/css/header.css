@@ -1,0 +1,120 @@
+header {
+    background-color: var(--color-amarillo);
+    padding-bottom: 15px;
+    font-size: var(--cuerpos-texto);
+  
+}
+
+header .logo {
+    width: 30%;
+    margin-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+header .burger-menu {
+    color: white;
+    background-color: var(--color-celeste);
+    padding: 7px;
+    width: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px ;
+    margin: auto;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    line-height: 15px;
+}
+
+header p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+header ul {
+    padding-inline-start: 0px;
+}
+
+nav{
+    display: none;
+    font-size: 12px;
+}
+.ml-15 {
+    margin-left: 15px;
+    display: inline-block;
+}
+.search-bar {
+    width: 50vw;
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 15px;
+    position: relative;
+}
+.search-bar input {
+    width: 90%;
+    border: none;
+    border-right: outset 0.1px var(--color-grisClaro);
+}
+.search-bar button {
+    text-align: center;
+    color: var(--color-grisOscuro);
+    background-color: white;
+    border: none;
+    margin-left: 4px;
+    font-size: 13px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#top-list{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+/* Media Queries */
+/* Tablet */
+@media screen and (min-width: 550px ){
+    .header-top {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    header p {
+        display: inline-block;
+        text-align: right;
+        width: 33%;
+        font-size: 0.8rem;
+    }
+
+    .search-bar {
+        width: 30vw;
+    }
+    .burger-menu {
+        display: none;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    nav {
+        display: inline-block;
+        width: 50%;
+        max-width: 330px
+    };
+
+   
+}
+/* Desktop */
+@media screen and (min-width: 769px ){
+
+   
+}

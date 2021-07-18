@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- hoja de estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>MercadoLiebre</title>
+</head>
+<body>
+    <form class="register-conteiner" action="" method="">
+        <div class="inputs-conteiner">
+            <input class="inputs" type="text" name="name" placeholder="Nombre y Apellido">
+        </div>
+        <p class="warning">Formato no válido</p>
+        <div class="inputs-conteiner">
+            <input class="inputs" type="text" name="userName" placeholder="Nombre de usuario">
+        </div>
+        <p class="warning">Nombre de usuario no válido</p>
+        <div class="inputs-conteiner">
+            <input class="inputs" type="email" name="email" placeholder="E-mail">
+        </div>
+        <p class="warning">Email no válido</p>
+        <h3>Fecha de nacimiento</h3>
+        <div class="inputs-conteiner">
+            <input class="inputs" type="date" name="date">
+        </div>
+        <div class="inputs-conteiner">
+            <input class="inputs" type="text" name="domicilio" placeholder="Domicilio">
+        </div>
+        <p class="warning">Domicilio no válido</p>
+        <h3>Perfil de usuario</h3>
+        <div class="profile-container">
+            <input type="radio" name="compradorVendedor" id="comprador">
+            <label for="comprador">Comprador</label>
+            <input type="radio" name="compradorVendedor" id="vendedor">
+            <label for="vendedor">Vendedor</label>
+        </div>
+        <h4>Intereses</h4>
+        <div class="interest">
+            <label for="electro">
+            <input  class="mr15" type="checkbox" name="intereses" id="electro">
+                Electro</label>
+
+            <label for="moda">
+                <input class="mr15" type="checkbox" name="moda" id="moda">Moda
+            </label>
+            
+            <label for="hogar">
+                <input class="mr15" type="checkbox" name="hogar" id="hogar">Hogar
+            </label>
+            
+            <label for="jugueteria">
+                <input class="mr15" type="checkbox" name="jugueteria" id="jugueteria">Jugueteria
+            </label>
+            
+            <label for="vidaSana">
+                <input class="mr15" type="checkbox" name="vidaSana" id="vidaSana">VidaSana
+            </label>
+
+        </div>
+    </form>
+</body>
+</html>

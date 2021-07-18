@@ -1,0 +1,28 @@
+
+.login-conteiner {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 10% 10% 10%;
+    height: 40vh;
+}
+
+.login-button {
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 2vh;
+    height: 4vh;
+    width: 100%;
+
+}
+
+.inputs-login {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 3vh;
+    width: 100%;
+}
